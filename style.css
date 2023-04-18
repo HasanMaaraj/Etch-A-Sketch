@@ -4,15 +4,20 @@
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    border: 1px black solid;
 }
 
 .row {
     display: flex;
-    justify-content: baseline;
 }
 
 div {
-
-    border: 1px black solid;
     flex: 1;
+}
+
+#new-grid {
+    margin-bottom: 8px;
+    height: 64px;
+    width: 256px;
+    font-size: 32px;
 }
