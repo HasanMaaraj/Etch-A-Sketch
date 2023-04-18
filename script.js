@@ -1,4 +1,4 @@
-const container = document.querySelector('.container');
+const grid = document.querySelector('.grid');
 const button = document.querySelector('#new-grid');
 
 function createGrid(size){
@@ -12,7 +12,7 @@ function createGrid(size){
             childDiv.className='block';
             div.appendChild(childDiv);
         }
-        container.appendChild(div);
+        grid.appendChild(div);
     }
 
     const blocks = document.querySelectorAll('.block');

@@ -1,4 +1,4 @@
-.container {
+.grid {
     width: 960px;
     height: 960px;
     justify-content: space-between;
@@ -20,4 +20,9 @@ div {
     height: 64px;
     width: 256px;
     font-size: 32px;
+}
+
+.container {
+    width: 962px;
+    margin: 0px auto;
 }
