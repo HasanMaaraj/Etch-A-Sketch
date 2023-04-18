@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+const button = document.querySelector('#new-grid');
 
 function createGrid(size){
     let teDelete = document.querySelectorAll('.row');
@@ -23,5 +24,14 @@ function createGrid(size){
     }));
 }
 
+button.addEventListener('click', () => {
+    let newSize = prompt('Enter new grid size.');
+    if (newSize <= 64){
+        createGrid(newSize);
+    }
+    else {
+        alert('the size should be a number not higher than 64')
+    }
+});
 createGrid(16);
 
