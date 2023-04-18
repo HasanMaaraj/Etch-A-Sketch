@@ -1,0 +1,18 @@
+.container {
+    width: 960px;
+    height: 960px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: baseline;
+}
+
+div {
+
+    border: 1px black solid;
+    flex: 1;
+}
