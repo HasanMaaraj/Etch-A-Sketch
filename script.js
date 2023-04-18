@@ -33,5 +33,5 @@ button.addEventListener('click', () => {
         alert('the size should be a number not higher than 64')
     }
 });
-createGrid(16);
 
+createGrid(16);
